@@ -1,10 +1,10 @@
 const Koa = require('koa');
+const router = require("./app/router");
 const app = new Koa();
+
 const port = 3000
-app.use((ctx) => {
-    console.log('ctx', ctx);
-    ctx.body = 'hello World';
-})
+//Routes 
+app.use(router.routes()).use(router.allowedMethods());
 
 app.listen(port, () => {
     console.log(`listening on http://localhost:${port}`)

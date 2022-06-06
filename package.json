@@ -19,7 +19,9 @@
   },
   "homepage": "https://github.com/Frbot25/Koa-server-test#readme",
   "dependencies": {
-    "koa": "^2.13.4"
+    "@koa/router": "^10.1.1",
+    "koa": "^2.13.4",
+    "koa-404-handler": "^0.1.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
