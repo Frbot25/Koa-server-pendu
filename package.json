@@ -4,7 +4,9 @@
   "description": "Serveur de test Koa",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/Frbot25/Koa-server-test/issues"
   },
-  "homepage": "https://github.com/Frbot25/Koa-server-test#readme"
+  "homepage": "https://github.com/Frbot25/Koa-server-test#readme",
+  "dependencies": {
+    "koa": "^2.13.4"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.16"
+  }
 }
