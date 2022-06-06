@@ -1,0 +1,19 @@
+{
+  "name": "koa-server-test",
+  "version": "1.0.0",
+  "description": "Serveur de test Koa",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Frbot25/Koa-server-test.git"
+  },
+  "author": "frédéric Botella",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Frbot25/Koa-server-test/issues"
+  },
+  "homepage": "https://github.com/Frbot25/Koa-server-test#readme"
+}
