@@ -21,9 +21,13 @@
   "dependencies": {
     "@koa/cors": "^3.3.0",
     "@koa/router": "^10.1.1",
+    "ejs": "^3.1.8",
     "koa": "^2.13.4",
     "koa-404-handler": "^0.1.0",
-    "koa-bodyparser": "^4.3.0"
+    "koa-bodyparser": "^4.3.0",
+    "koa-ejs": "^4.3.0",
+    "koa-static": "^5.0.0",
+    "path": "^0.12.7"
   },
   "devDependencies": {
     "nodemon": "^2.0.16"
