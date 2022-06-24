@@ -7,7 +7,7 @@ const render = require('koa-ejs');
 const path = require('path');
 const static = require('koa-static');
 
-const port = 3000
+const port = 3000 || 80;
 app.use(static('public'));
 render(app, {
     root: path.join(__dirname, 'views'),
@@ -26,5 +26,5 @@ app.use(bodyParser({
 app.use(router.routes()).use(router.allowedMethods());
 
 app.listen(port, () => {
-    console.log(`listening on http://localhost:${port}`)
+    console.log(`listening on ${port}`)
 })
