@@ -25,6 +25,6 @@ app.use(bodyParser({
 //Routes 
 app.use(router.routes()).use(router.allowedMethods());
 
-app.listen(port, () => {
+app.listen(PORT, () => {
   console.log("Server running on port 5000...");
 })
