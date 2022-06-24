@@ -7,7 +7,7 @@ const render = require('koa-ejs');
 const path = require('path');
 const static = require('koa-static');
 
-const port = 3000 || 80;
+const port = 80;
 app.use(static('public'));
 render(app, {
     root: path.join(__dirname, 'views'),
